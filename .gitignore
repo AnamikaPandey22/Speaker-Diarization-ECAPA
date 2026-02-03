@@ -1,0 +1,42 @@
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+
+# ---- Python cache ----
+__pycache__/
+*.pyc
+
+# ---- Model files (VERY LARGE) ----
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# ---- Audio files (datasets) ----
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# ---- Datasets & archives ----
+data/
+*.zip
+*.tar
+*.gz
+
+# ---- Logs & outputs ----
+logs/
+outputs/
+*.log
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / Editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ---- Secrets ----
+.env
