@@ -1,0 +1,22 @@
+#This database.yml is telling pyannote where your audio files are and where your speaker labels (RTTM) are, and how to split them into train / dev / test.
+
+Databases:
+  HindiBhojpuri:    #dataset name
+    - dataset/audio/{uri}.wav  #All my audio files live in this folder, and their names depend on {uri}.
+
+Protocols:   #Now I will explain how this dataset will be used.
+  HindiBhojpuri:
+    SpeakerDiarization:  #I am doing a speaker diarization task.
+      Segmentation: #I want to train / evaluate a segmentation model.
+        train:
+          uri: dataset/splits/train.txt
+          annotation: dataset/rttm/{uri}.rttm
+        development:
+          uri: dataset/splits/dev.txt
+          annotation: dataset/rttm/{uri}.rttm
+        test:
+          uri: dataset/splits/test.txt
+          annotation: dataset/rttm/{uri}.rttm
+
+#Segmentation =
+# who is speaking at each moment in time
