@@ -95,6 +95,7 @@ PyAnnote models are trained on mono 16kHz
 Stereo or different sampling rates reduce accuracy
 
 🚀 How to Run the Project
+
 1️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # Windows
