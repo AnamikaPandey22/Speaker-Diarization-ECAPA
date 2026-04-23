@@ -112,17 +112,17 @@ RTTM format for evaluation
 
 🎯 Key Features
 
-✅ Fine-tuned speaker segmentation model
+ Fine-tuned speaker segmentation model
 
-✅ Works on real-world conversational audio
+ Works on real-world conversational audio
 
-✅ Supports variable number of speakers
+ Supports variable number of speakers
 
-✅ Uses Agglomerative Clustering
+ Uses Agglomerative Clustering
 
-✅ Produces RTTM diarization output
+ Produces RTTM diarization output
 
-✅ Visualization of speaker segments
+ Visualization of speaker segments
 
 🔊 Audio Requirements (Important)
 
