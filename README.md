@@ -20,11 +20,11 @@ This project is suitable for:
 
 Speaker diarization breaks an audio file into:
 
-Speech vs non-speech
+1. Speech vs non-speech
 
-Speaker segments
+2. Speaker segments
 
-Speaker labels (Speaker 1, Speaker 2, …)
+3. Speaker labels (Speaker 1, Speaker 2, …)
 
 Example output:
 
